@@ -1,0 +1,70 @@
+<html lang="rus">
+<header>
+    <meta charset="utf-8">
+    <div class="header-bg">
+        <div class="semi-layer">
+            <div class="menu">
+                <div class="box2">
+                    <a href="index.html" class="menu-href">
+                        <img src="img/logo4.png" class="logo" alt="Главная страница">
+                    </a>
+                </div>
+<!--                <div class="box">-->
+<!--                    <a href="pay.html" class="menu-href" id="game">-->
+<!--                        <span>ИГРЫ</span>-->
+<!--                    </a>-->
+<!--                </div>-->
+
+                <div class="box">
+                    <a href="shop.html" class="menu-href" id="shop">
+                        <span>МАГАЗИН</span>
+                    </a>
+                </div>
+
+                <div class="box">
+                    <a href="news.html" class="menu-href" id="news">
+                        <span>НОВОСТИ</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+<head>
+    <title>WoW Оплата</title>
+    <link rel="shortcut icon" href="/img/logo2.png" type="image/png">
+    <link rel="stylesheet" href="scratch.css">
+</head>
+<body>
+<div class="pay-main">
+        <aside class="pay-bar">
+            <form name="test" method="post">
+                <p class="pay-font"><b>Выберите способ оплаты:</b><Br>
+                    <input type="radio" name="money" value="visa"> Visa<Br>
+                    <input type="radio" name="money" value="ms"> Master Card<Br>
+                    <input type="radio" name="money" value="coin"> Чеканной монетой<Br>
+                </p>
+                <p class="pay-font"><b>Номер карты:</b><br>
+                    <input type="text" size="40" id="field">
+                </p>
+                <p class="pay-font">Адрес<Br>
+                    <textarea name="adr" cols="40" rows="3" class="text-area"></textarea></p>
+                <p class="rule">
+                <input type="checkbox">&nbsp;&nbsp;Я ознакомился и принимаю условия следующих документов:
+                Лицензионное соглашение с конечным пользователем (Blizzard) и Условия продажи, а также соглашаетесь
+                на немедленное выполнение вашего заказа. Как только выполнение заказа начинается, вы теряете право отменить его.
+            </p>
+            </form>
+            <div class="btn">
+                <button onclick="document.location='pay.html'" class="pay-btn">Оплатить</button>
+                <button onclick="document.location='index.html'" class="cancel-btn">Отмена</button>
+            </div>
+        </aside>
+
+    <div class="gif">
+        <img src="img/pay.gif"  width="533" height="400" alt="ХЗ">
+    </div>
+</div>
+
+</body>
+</html>
