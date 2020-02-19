@@ -178,72 +178,72 @@ a.menu-href:hover {color: white;}
     border: solid 10px #757575;
 }
 
-@media (max-width: 1024px)  {
-    .main {
-        flex-direction: column;
-    }
 
-    button {
-        font-size: 50px;
+/*@media (max-width: 1024px)  {*/
+/*    .main {*/
+/*        flex-direction: column;*/
+/*    }*/
 
-    }
+/*    button {*/
+/*        font-size: 50px;*/
 
-    .menu {
-        font-size: 50px;
-    }
+/*    }*/
 
-    .logo {
-        width: 70%;
-    }
-    .logo:hover {
-        height: 98%;
-        width: 70%;
-    }
-    .pay-font {
-        font-size: 80px;
-    }
+/*    .menu {*/
+/*        font-size: 50px;*/
+/*    }*/
 
-    .pay-bar {
-        width: 900px;
-        padding-left: 40px;
-    }
+/*    .logo {*/
+/*        width: 70%;*/
+/*    }*/
+/*    .logo:hover {*/
+/*        height: 98%;*/
+/*        width: 70%;*/
+/*    }*/
+/*    .pay-font {*/
+/*        font-size: 80px;*/
+/*    }*/
 
-    .pay-main {
-       width: 200px;
-        display: block;
-    }
+/*    .pay-bar {*/
+/*        width: 900px;*/
+/*        padding-left: 40px;*/
+/*    }*/
 
-    .text-area {
-        font-size: 30px;
-    }
+/*    .pay-main {*/
+/*       width: 200px;*/
+/*        display: block;*/
+/*    }*/
 
-    input {
-        transform:scale(3)
-    }
+/*    .text-area {*/
+/*        font-size: 30px;*/
+/*    }*/
 
-    #field {
-        font-size: 30px;
-        height: 60px;
-        transform:scale(1)
-    }
-    .rule {
-        font-size: 30px;
-    }
-    .gif {
-        border: none;
-        height: 0px;
-        visibility: collapse;
-    }
+/*    input {*/
+/*        transform:scale(3)*/
+/*    }*/
 
-    .games-line {
-        display: block;
-        flex-direction: column;
-    }
+/*    #field {*/
+/*        font-size: 30px;*/
+/*        height: 60px;*/
+/*        transform:scale(1)*/
+/*    }*/
+/*    .rule {*/
+/*        font-size: 30px;*/
+/*    }*/
+/*    .gif {*/
+/*        border: none;*/
+/*        height: 0px;*/
+/*        visibility: collapse;*/
+/*    }*/
 
-    /*.game {*/
-    /*    padding-top: 300px;*/
-    /*    padding-bottom: 300px;*/
-    /*    transform:scale(3)*/
-    /*}*/
-}
+/*    .games-line {*/
+/*        display: block;*/
+/*        flex-direction: column;*/
+/*    }*/
 
+/*    !*.game {*!*/
+/*    !*    padding-top: 300px;*!*/
+/*    !*    padding-bottom: 300px;*!*/
+/*    !*    transform:scale(3)*!*/
+/*    !*}*!*/
+/*}
