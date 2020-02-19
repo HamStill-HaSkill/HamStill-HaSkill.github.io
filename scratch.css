@@ -1,0 +1,249 @@
+.header-bg {
+    height: 300px; /* Высота блока */
+    background: url(img/header-bg.jpg) 100% 30% no-repeat; /* Добавляем фон */
+    background-size: cover; /* Масштабируем фон */
+}
+body {
+    background-image: url(img/site-bg.png); /* Добавляем фон */
+}
+
+.semi-layer {
+    background: #292929; /* Цвет фона */
+    opacity: 0.8; /* Значение прозрачности */
+    filter: alpha(Opacity=80); /* Прозрачность в IE */
+    /*filter: blur(1px);*/
+}
+
+.box {
+    padding: 10px; /* Поля вокруг текста */
+}
+
+.main {
+    margin-top: 2%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+
+.main-text {
+    color: white;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.main-btn {
+    margin-top: 5%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+button {
+    background-color: #353535;
+    border: solid 1px #757575;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+    padding: 10px 50px;
+    text-decoration: none;
+    text-align: center;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #565656;
+}
+
+.btn {
+    padding-right: 20px;
+}
+a {
+ text-decoration: none;
+}
+a.menu-href:hover {color: white;}
+
+.menu {
+    display: flex;
+    font-size: 30px;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+
+.menu-href {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: #bababa;
+}
+
+.logo {
+    height: 98%;
+    width: 35%;
+    flex: 1;
+}
+
+.logo:hover {
+    height: 100%;
+    width: 36%;
+    flex: 1;
+}
+#game {
+    flex: 1;
+}
+
+#shop {
+    flex: 1;
+}
+
+#news {
+    flex: 1;
+}
+
+.shop-games {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.games-line {
+    padding-top: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.shop-text {
+    font-size: 20px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: white;
+
+}
+
+.shop-img:hover {
+    border: 1px solid gray;
+}
+.game {
+    padding-right: 50px;
+    flex: 1;
+}
+
+.news-line {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.news {
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.news-img {
+    padding-right: 20px;
+}
+
+.news-img:hover {
+    filter: blur(2px);
+}
+
+.news-text {
+    font-size: 15px;
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    color: white;
+
+}
+.pay-main {
+    padding-top: 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.pay-bar {
+    background: #acacac; /* Цвет фона */
+    border: solid 5px #757575;
+    width: 30%;
+}
+
+.cancel-btn {
+    background: #757575; /* Цвет фона */
+}
+
+.gif {
+    border: solid 10px #757575;
+}
+
+@media (max-width: 1024px)  {
+    .main {
+        flex-direction: column;
+    }
+
+    button {
+        font-size: 50px;
+
+    }
+
+    .menu {
+        font-size: 50px;
+    }
+
+    .logo {
+        width: 70%;
+    }
+    .logo:hover {
+        height: 98%;
+        width: 70%;
+    }
+    .pay-font {
+        font-size: 80px;
+    }
+
+    .pay-bar {
+        width: 900px;
+        padding-left: 40px;
+    }
+
+    .pay-main {
+       width: 200px;
+        display: block;
+    }
+
+    .text-area {
+        font-size: 30px;
+    }
+
+    input {
+        transform:scale(3)
+    }
+
+    #field {
+        font-size: 30px;
+        height: 60px;
+        transform:scale(1)
+    }
+    .rule {
+        font-size: 30px;
+    }
+    .gif {
+        border: none;
+        height: 0px;
+        visibility: collapse;
+    }
+
+    .games-line {
+        display: block;
+        flex-direction: column;
+    }
+
+    /*.game {*/
+    /*    padding-top: 300px;*/
+    /*    padding-bottom: 300px;*/
+    /*    transform:scale(3)*/
+    /*}*/
+}
+
