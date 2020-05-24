@@ -27,7 +27,8 @@
     } 
     else {
         if ($row['password']==$password) {
-            $_SESSION['login']=$row['login']; 
+            $_SESSION['login']=$row['login'];
+            $mysqli->close(); 
             header("Location: http://localhost/site.php");
         }
         else {

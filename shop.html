@@ -1,41 +1,16 @@
 <html lang="rus">
-<header>
-    <meta charset="utf-8">
-    <div class="header-bg">
-        <div class="semi-layer">
-            <div class="menu">
-                <div class="box2">
-                    <a href="index.html" class="menu-href">
-                        <img src="img/logo4.png" class="logo" alt="Главная страница">
-                    </a>
-                </div>
-<!--                <div class="box">-->
-<!--                    <a href="pay.html" class="menu-href" id="game">-->
-<!--                        <span>ИГРЫ</span>-->
-<!--                    </a>-->
-<!--                </div>-->
-
-                <div class="box">
-                    <a href="shop.html" class="menu-href" id="shop">
-                        <span>МАГАЗИН</span>
-                    </a>
-                </div>
-
-                <div class="box">
-                    <a href="news.html" class="menu-href" id="news">
-                        <span>НОВОСТИ</span>
-                    </a>
-                </div>
-            </div>
-        </div>
-    </div>
-</header>
 <head>
     <title>WoW Магазин</title>
-    <link rel="shortcut icon" href="/img/logo5.ico" type="image/x-icon">
+    <meta charset="utf-8">
+    <link rel="import" href="template.php">
     <link rel="stylesheet" href="scratch.css">
 </head>
 <body>
+    <script>
+                var link = document.querySelector('link[rel=import]');
+                var content = link.import.querySelector('#base-head');
+                document.body.appendChild(content.cloneNode(true));
+    </script>
     <div class="shop-games">
         <div class="games-line">
             <div class="game">
@@ -70,11 +45,9 @@
             </div>
         </div>
     </div>
-
-
-    <footer>
-        <p class="main-text" align="center" id="shop-footer">У нас нет прав 2000-2020. Платформы: PC, PS5, Xbox 365</p>
-    </footer>
-
+    <script>
+        var content = link.import.querySelector('#base-footer');
+        document.body.appendChild(content.cloneNode(true));
+    </script>
 </body>
 </html>
